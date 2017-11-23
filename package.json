@@ -1,0 +1,22 @@
+{
+  "name": "club-recommendation",
+  "version": "0.1.0",
+  "description": "An app that help you select a club to join at UWI",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ./app/src/js/main.js"
+  },
+  "repository": "https://github.com/superrcoop/club-recommendation",
+  "keywords": [
+    "Electron",
+    "App",
+    "UWI",
+    "club",
+    "recommendation"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.7.9"
+  }
+}
