@@ -1,0 +1,79 @@
+
+.mobile-app-dashboard-header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40vh;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url("../img/mona-campus-logo2.png") center center no-repeat;
+}
+
+
+.mobile-app-dashboard {
+  background-color: transparent;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-flex: 1 1 100%;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+  height: 60vh;
+}
+
+.mobile-app-dashboard a {
+  -webkit-flex-basis: 50%;
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 0;
+  color: #8a8a8a;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-bottom: 1px solid #8a8a8a;
+}
+
+.mobile-app-dashboard a:nth-child(2n-1) {
+  border-right: 1px solid #8a8a8a;
+}
+
+.mobile-app-dashboard .mobile-app-dashboard-inner {
+  height: 50px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mobile-app-dashboard .mobile-app-dashboard-inner img,
+.mobile-app-dashboard .mobile-app-dashboard-inner svg,
+.mobile-app-dashboard .mobile-app-dashboard-inner i {
+  max-width: 4rem;
+  max-height: 4rem;
+  font-size: 4rem;
+}
