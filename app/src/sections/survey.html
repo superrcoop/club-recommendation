@@ -1,0 +1,41 @@
+<template class="win-template">
+	<section id="survey" >
+		<div class="translucent-form-overlay">
+		  	<form>
+			    <h1>Tell me about yourself</h1><br>
+			    <div class="row columns">
+			      	<label>1. Select your area of study:</label>
+			        <select name="area-of-study" type="text">
+		          		<option>Any</option>
+		          		<option value="Science">Science and Technology</option>
+		          		<option value="Humanities">Humanities</option>
+		          		<option value="Marketing">Marketing</option>
+		          		<option value="Buisness">Buisness Administration</option>
+		          		<option value="Law">Law</option>
+		          		<option value="Medicine">Medicine</option>
+		          		<option value="Engineering">Engineering</option>
+		          		<option value="Art">Arts and Culture</option>
+		        	</select>
+			    </div><br>
+			    <div class="row columns">
+			      	<label>2. Select any of the following activities you enjoy:</label><br>
+	        		<input type="checkbox" name="activities" value="sports">Playing Sports<br>
+					<input type="checkbox" name="activities" value="singing-dancing">Singing and Dancing<br>
+					<input type="checkbox" name="activities" value="debating">Debating<br>
+					<input type="checkbox" name="activities" value="reading-writing">Reading and/or Writing<br>
+					<input type="checkbox" name="activities" value="drawing">Drawing<br>
+					<input type="checkbox" name="activities" value="speaking">Public Speaking<br>
+					<input type="checkbox" name="activities" value="env-activities">Environmental Activies<br><br>	
+			    </div>
+			    <div class="row columns">
+			      	<label>3. What are you looking for MOST in a club?</label><br>
+	        		<input type="radio" name="club-role" value="active"> Being active<br>
+					<input type="radio" name="club-role" value="help-others"> Helping others<br>
+					<input type="radio" name="club-role" value="hobby"> Enjoy my hobby with others<br>
+					<input type="radio" name="club-role" value="field-of-study"> Relative to my field of study<br><br>
+			    </div>
+			    <button type="button" class="button button-rounded-hover">Submit</button>
+			</form>
+		</div>
+	</section>
+</template>

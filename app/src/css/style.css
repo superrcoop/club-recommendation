@@ -1,4 +1,8 @@
 
+
+
+/* mainPage 
+================= */
 .mobile-app-dashboard-header {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -77,3 +81,54 @@
   max-height: 4rem;
   font-size: 4rem;
 }
+
+
+
+/* Survey 
+=====================*/
+
+#survey{
+  background-color: #f9fff7;
+  padding: 40px;
+}
+.translucent-form-overlay {
+  max-width: 500px;
+  width: 100%;
+  background-color: rgba(54, 54, 54, 0.6);
+  padding: 20px;
+  color: white;
+}
+
+h1{
+  font-weight: 800px;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.translucent-form-overlay .columns.row {
+  display: block;
+}
+
+.translucent-form-overlay h3, .translucent-form-overlay label {
+  color: #fefefe;
+  font-size: 18px;
+}
+
+.translucent-form-overlay input, .translucent-form-overlay select {
+  color: #8a8a8a;
+}
+
+.translucent-form-overlay input::-webkit-input-placeholder {
+  color: #8a8a8a;
+}
+
+.translucent-form-overlay input:-ms-input-placeholder {
+  color: #8a8a8a;
+}
+
+.translucent-form-overlay input::placeholder {
+  color: #8a8a8a;
+}
+
+
