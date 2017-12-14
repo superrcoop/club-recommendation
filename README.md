@@ -1,6 +1,7 @@
 # Club Recommendation
 
-> Finds a club that suits you
+> The university of the West Indies Mona campus is need of a system that can provide detailed information about clubs at the university. Students who are looking for clubs can view club details and get the information they need. As an added feature, students who are unable to decide what club to join may be able to gain recommendations from the system in order to choose a club.
+
 
 
 ## Devevelopment
