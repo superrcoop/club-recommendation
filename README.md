@@ -9,12 +9,12 @@
 To clone and run this repository you'll need `git` and `npm` installed from your command line:
 
 ```
-$ git clone https://github.com/<username>/<project_name>
+$ git clone https://github.com/superrcoop/club-recommendation
 ```
 
 
 ```
-$ cd <project_name>
+$ cd club-recommendation
 ```
 
 
