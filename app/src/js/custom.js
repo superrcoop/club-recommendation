@@ -2,14 +2,21 @@
 //var club = ["Football","Cricket","UWI Choir","Uwi Dance society","Uwi Visual Arts society","Uwi Computing society","Uwi Law society","Rotaract Club"]
 window.onload=function(){
 	//showFrontSectionOnly()
-	
+	hideAllSections()			
+	$('#homePage').removeClass('hide');
 	//Add event listener
-	document.body.addEventListener('click', function (event) {
-		if (event.target.dataset.section) {
-			hideAllSections()
-			showSection(event)
-		}
-	})
+	/*document.body.addEventListener('click', function (this) {
+		hideAllSections()
+		console.log(this.getElementById());
+		showSection(event)
+	});*/
+
+	document.getElementById('surveyButton').click("click", function(){
+		hideAllSections()
+		$('#survey').removeClass('hide');
+
+	});
+
 	//survey analysis 
 	$('[data-loading-start]').click(function() {
 	  $(this).addClass('hide');
@@ -36,20 +43,16 @@ window.onload=function(){
 
 // hides all sections from view
 function hideAllSections(){
-	//document.querySelector(#) + ' section').hide()
+	//document.querySelector('#' + 'section').hide()	
 }
 
 //show section on click
 function showSection(event){
+	hideAllSections()
 	const sectionId = event.target.dataset.section
-	$('#' + sectionId).show()
-	$('#' + sectionId + ' section').show()
+	$('#' + sectionId).removeClass('hide');
 }
 
-// show main window only on window.load()
-function showHomeSectionOnly(){
-	//..
-}
 
 function validateForm() {
     var x = document.forms["myForm"]["fname"].value;

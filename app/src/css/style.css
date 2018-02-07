@@ -470,20 +470,15 @@ h1{
   cursor: pointer;
   float: right;
   font-size: 0.875rem;
-  padding-left: 0.5rem;
   text-align: right;
   width: 100%;
 }
 
 .card-reveal-wrapper .card-reveal {
   background: #fefefe;
-  bottom: 0;
   display: block;
-  left: 0;
   overflow: hidden;
-  padding: 1rem;
   position: absolute;
-  right: 0;
   top: 100%;
   transition: top 0.6s ease-in-out;
 }
@@ -556,17 +551,6 @@ h1{
 
 /* FAQ 
 ===========*/
-
-
-.news-card-tag {
-  margin-bottom: 0.5rem;
-}
-
-.news-card-tag .label {
-  border-radius: 0.125rem;
-  background-color: #1779ba;
-  color: #fefefe;
-}
 
 .news-card-tag .label a {
   background-color: inherit;

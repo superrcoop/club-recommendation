@@ -42,3 +42,7 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 - [electron.atom.io/docs](http://electron.atom.io/docs) - all of Electron's documentation
 - [electron/electron-api-demos](https://github.com/electron/electron-api-demos) - an Electron app that teaches you how to use Electron
 
+## Mockup
+
+<img src="/docs/mockups/Development.png" />    
+
